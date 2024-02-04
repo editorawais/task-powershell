@@ -1,0 +1,5 @@
+# Build the Docker image
+Build-DockerImage -Dockerfile "path\to\Dockerfile" -Tag "fibonacci-container" -Context "path\to\context"
+
+# Run the Fibonacci container
+Run-DockerContainer -ImageName "fibonacci-container"
